@@ -20,7 +20,7 @@ The server expects and responds with `json`. The json parsing is handled by an e
 
 This project is packaged via npm(npm and node are pre-requisites for running the project); the respective package.json file contains all required scripts.
 
-The application inputs/outputs as a standard API. For a quick demo, you can use [curl](https://github.com/pg9-dev/datahouse_assignment#Curl-Sample) for testing the project. 
+The application inputs/outputs as a standard API. For a quick demo, you can type the [curl](https://github.com/pg9-dev/datahouse_assignment#Curl-Sample) request in terminal after running the server.  
 
 --------------------------------------------------------------------------------
 
@@ -124,7 +124,7 @@ Body
 
 # Curl Sample
 ## Sample curl request for testing the `/` route
-
+The query is passed into the curl command and can be changed to reflect a different input. 
 ```
 curl -d '{
   "team" : [
