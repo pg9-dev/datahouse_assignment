@@ -1,5 +1,4 @@
 ---
->-
   A simple backend server that implements the scoring logic in the datahouse
   assignment. The server listens on port 8000 and responds to post request on
   the '/' page.
