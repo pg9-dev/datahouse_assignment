@@ -1,11 +1,15 @@
 import express from 'express';
-import scoreApplicants from './scoreApplicants';
-import validateBody from './utils';
+import { scoreApplicants } from './utils';
+import { validateBody } from './utils';
 
+// @Comment: Setting up an express server @ port 8000
 const app = express();
 const PORT = 8000;
 
+// @Comment: middleware to ensure json data is parsed.
 app.use(express.json());
+
+// @Route: home endpoint for processing requests.
 app.post('/', (req, res) => {
     if (!validateBody(req.body)) {
         res.status(400).send('Bad request!');
@@ -16,4 +20,5 @@ app.post('/', (req, res) => {
     }
 });
 
+// @Comment Starting server
 app.listen(PORT, () => console.log('Server is running on port: ' + PORT));
