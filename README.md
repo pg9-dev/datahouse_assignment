@@ -1,5 +1,4 @@
 ---
->-
   A simple backend server that implements the scoring logic in the datahouse assignment.
 ---
 
