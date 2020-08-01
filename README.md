@@ -8,13 +8,13 @@ The server listens on port 8000 and responds to post request on the '/' page. If
 
 The server expects and responds with `json`. The json parsing is handled by an express middleware.
 
-This project is packaged via npm(npm and node is pre-requisites for running the project); the respective package.json file contains all required scripts.
+This project is packaged via npm(npm and node are pre-requisites for running the project); the respective package.json file contains all required scripts.
 
 
 
 --------------------------------------------------------------------------------
-#### All commands are to be entered in the home directory of the project. Node.js and npm is a pre-requisites for running the project. 
-##### In order to the run the project, the dependencies need to be installed first. To install all dependencies:
+#### All commands are to be entered in the home directory of the project. Node.js and npm are a pre-requisites for running the project. 
+##### In order to the run the project, the dependencies need to be installed first. To install all dependencies, use:
 
 ```
 `npm install`
@@ -22,13 +22,13 @@ This project is packaged via npm(npm and node is pre-requisites for running the 
 
 --------------------------------------------------------------------------------
 
-##### To start the server:
+##### To start the server, use:
 
 ```
 `npm start`
 ```
 
-##### To run the test cases:
+##### To run the test cases, use:
 
 ```
 `npm test`
@@ -39,7 +39,7 @@ This project is packaged via npm(npm and node is pre-requisites for running the 
 # File Overview
 
 ## src/index.js
-Sets up the server: estabishes the post route for the server, installs the json parsing middleware and listens on the specified port.
+Sets up the server: establishes the POST route for the server, installs the json parsing middleware and listens on the specified port.
 
 ## src/utils.js
 Contains the logic for validating a request, the scoring logic and helper functions. 
@@ -48,11 +48,12 @@ Contains the logic for validating a request, the scoring logic and helper functi
 A wrapper testfile that runs all tests. 
 
 ## test/testCase.js
-Contains and export the testcase provided with the assignment.
+Contains and exports the testcase provided with the assignment.
 
 # REST API: POST requests
 
 ## Sample POST request @ /
+>`Postman was used to test the request and is recommended for running the project
 
 ```json
 Body
