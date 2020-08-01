@@ -1,16 +1,20 @@
 ---
->-
+
   A simple backend server that implements the scoring logic in the datahouse
   assignment.
 ---
 
 # Table of Content
 ---
-[Description](https://github.com/pg9-dev/datahouse_assignment#description)
-[Instructions to Run](https://github.com/pg9-dev/datahouse_assignment#Instructions-to-Run)
-[File Overview](https://github.com/pg9-dev/datahouse_assignment#file-overview)
-[REST API: POST requests](https://github.com/pg9-dev/datahouse_assignment#rest-api-post-requests)
-[Sample curl request for testing the / route](https://github.com/pg9-dev/datahouse_assignment#Curl-Sample)
+*[Description](https://github.com/pg9-dev/datahouse_assignment#description)
+
+*[Instructions to Run](https://github.com/pg9-dev/datahouse_assignment#Instructions-to-Run)
+
+*[File Overview](https://github.com/pg9-dev/datahouse_assignment#file-overview)
+
+*[REST API: POST requests](https://github.com/pg9-dev/datahouse_assignment#rest-api-post-requests)
+
+*[Sample curl request for testing the / route](https://github.com/pg9-dev/datahouse_assignment#Curl-Sample)
 
 # Description
 
