@@ -1,0 +1,25 @@
+{
+  "name": "datahouse_assignment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "babel-node src/index.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pg9-dev/datahouse_assignment.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pg9-dev/datahouse_assignment/issues"
+  },
+  "homepage": "https://github.com/pg9-dev/datahouse_assignment#readme",
+  "devDependencies": {
+    "@babel/core": "^7.11.0",
+    "@babel/node": "^7.10.5"
+  }
+}
