@@ -1,24 +1,14 @@
-import scoreLogic from './scoreLogic.js'
+import express from 'express';
+import scoreApplicants from './scoreApplicants';
 
-const scoreRequest = (jsonRequest) => {
-    const objectRequest = JSON.parse(request); 
+const app = express(); 
+const PORT = 8000; 
+
+app.use(express.json())
+app.post('/', (req, res) => {
+    const objectRequest = (req.body);
     const objectResponse = scoreApplicants(objectRequest);
-    return JSON.stringify(objectResponse); 
-}
+    res.send(JSON.stringify(objectResponse));
+}); 
 
-const scoreApplicants = (objectRequest) => {
-    const applicant = objectRequest['applicants']; 
-    const applicantResponse = applicant.map((item) => {
-        const resultScore = scoreLogic(item.attributes); 
-        return {
-            name: item.name, 
-            score: resultScore
-        }
-    });
-    const response = {
-        "scoredApplicants": applicantResponse
-    }
-    return response;
-};
-
-export default scoreApplicants;
+app.listen(PORT, () => console.log("Server is running on port: " + PORT));
