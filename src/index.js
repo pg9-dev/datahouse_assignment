@@ -8,7 +8,7 @@ const PORT = 8000;
 app.use(express.json());
 app.post('/', (req, res) => {
     if (!validateBody(req.body)) {
-        res.status(400).send('Request Body is not valid!');
+        res.status(400).send('Bad request!');
     } else {
         const objectRequest = req.body;
         const objectResponse = scoreApplicants(objectRequest);
