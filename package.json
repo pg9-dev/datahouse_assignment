@@ -20,6 +20,8 @@
   "homepage": "https://github.com/pg9-dev/datahouse_assignment#readme",
   "devDependencies": {
     "@babel/core": "^7.11.0",
-    "@babel/node": "^7.10.5"
+    "@babel/node": "^7.10.5",
+    "@babel/preset-env": "^7.11.0",
+    "expect": "^26.2.0"
   }
 }
