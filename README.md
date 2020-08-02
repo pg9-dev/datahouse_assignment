@@ -117,7 +117,7 @@ Body
 
 ```json
 {
-    "applicants": [
+    "scoredApplicants": [
         {
             "name": "John",
             "score": 0
